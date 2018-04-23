@@ -3,6 +3,11 @@ package com.rexwong.scaladoc.http
 import com.alibaba.fastjson.{JSON, JSONObject}
 import scalaj.http.{Http, HttpOptions}
 
+/**
+  * 抓取youku电影[唐人街探案2]接口查询豆瓣的评论
+  *
+  * @author rexwong
+  */
 object HttpClient {
 
   def main(args: Array[String]): Unit = {
